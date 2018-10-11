@@ -1,0 +1,23 @@
+.icon {
+    font-size: 11px;
+    display: inline-block;
+    padding-top: 4px;
+    margin-right: 15px;
+    margin-left: 0;
+    color: #44c735;
+}
+
+.icon-c {
+    font-size: 11px;
+    display: inline-block;
+    color: #44c735;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.c-link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

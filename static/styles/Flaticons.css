@@ -1,0 +1,110 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 29/08/2017 12:00
+*/
+
+@font-face {
+font-family: "Flaticon";
+src: url("../../fonts/Flaticon.eot");
+src: url("../../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+   url("../../fonts/Flaticon.woff") format("woff"),
+   url("../../fonts/Flaticon.ttf") format("truetype"),
+   url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+   font-family: "Flaticon2";
+   src: url("../../fonts/Flaticon2.eot");
+   src: url("../../fonts/Flaticon2.eot?#iefix") format("embedded-opentype"),
+   url("../../fonts/Flaticon2.woff") format("woff"),
+   url("../../fonts/Flaticon2.ttf") format("truetype"),
+   url("../../fonts/Flaticon2.svg#Flaticon") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   @font-face {
+      font-family: "Flaticon";
+      src: url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+      font-style: normal;
+   }
+   @font-face {
+      font-family: "Flaticon2";
+      src: url("../../fonts/Flaticon2.svg#Flaticon2") format("svg");
+      font-style: normal;
+   }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+   font-family: Flaticon;
+   font-style: normal;
+}
+
+[class^="flaticon2-"]:before, [class*=" flaticon2-"]:before,
+[class^="flaticon2-"]:after, [class*=" flaticon2-"]:after {
+   font-family: Flaticon2;
+   font-style: normal;
+}
+
+.flaticon-stop:before { content: "\f100"; }
+.flaticon-gift:before { content: "\f101"; }
+.flaticon-outlook-logo:before { content: "\f102"; }
+.flaticon-gmail-logo:before { content: "\f103"; }
+.flaticon-warning:before { content: "\f104"; }
+.flaticon-web-link:before { content: "\f105"; }
+.flaticon-logout:before { content: "\f106"; }
+.flaticon-facebook-logo:before { content: "\f107"; }
+.flaticon-menu-button:before { content: "\f108"; }
+.flaticon-emoticon-with-happy-face:before { content: "\f109"; }
+.flaticon-cancel-button:before { content: "\f10a"; }
+.flaticon-check-box:before { content: "\f10b"; }
+.flaticon-add-button-inside-black-circle:before { content: "\f10c"; }
+.flaticon-keyboard-right-arrow-button:before { content: "\f10d"; }
+.flaticon-calendar-1:before { content: "\f10e"; }
+.flaticon-clock-circular-outline:before { content: "\f10f"; }
+.flaticon-globe:before { content: "\f110"; }
+.flaticon-thumb-up-sign:before { content: "\f111"; }
+.flaticon-question-mark:before { content: "\f112"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f113"; }
+.flaticon-phone-receiver:before { content: "\f114"; }
+.flaticon-comments:before { content: "\f115"; }
+.flaticon-folder:before { content: "\f116"; }
+.flaticon-arrows:before { content: "\f117"; }
+.flaticon-earth:before { content: "\f118"; }
+.flaticon-whatsapp-logo:before { content: "\f119"; }
+.flaticon-youtube-logo:before { content: "\f11a"; }
+.flaticon-arrow-pointing-to-right:before { content: "\f11b"; }
+.flaticon-plus:before { content: "\f11c"; }
+.flaticon-magnifying-glass-browser:before { content: "\f11d"; }
+.flaticon-pinterest:before { content: "\f11e"; }
+.flaticon-check-mark:before { content: "\f11f"; }
+.flaticon-checkbox:before { content: "\f120"; }
+.flaticon-eye:before { content: "\f121"; }
+.flaticon-subtraction:before { content: "\f122"; }
+.flaticon-interface:before { content: "\f123"; }
+.flaticon-cancel-1:before { content: "\f124"; }
+.flaticon-email:before { content: "\f125"; }
+.flaticon-lock:before { content: "\f126"; }
+.flaticon-youtube:before { content: "\f127"; }
+.flaticon-sad:before { content: "\f128"; }
+.flaticon-star:before { content: "\f129"; }
+.flaticon-check:before { content: "\f12a"; }
+.flaticon-happy-man:before { content: "\f12b"; }
+.flaticon-instagram-logo:before { content: "\f12c"; }
+.flaticon-wrench:before { content: "\f12d"; }
+.flaticon-calendar:before { content: "\f12e"; }
+.flaticon-edit:before { content: "\f12f"; }
+.flaticon-social:before { content: "\f130"; }
+.flaticon-cancel:before { content: "\f131"; }
+.flaticon-pin:before { content: "\f132"; }
+.flaticon-downloading-action:before { content: "\f133"; }
+
+.flaticon2-signs:before { content: "\f100"; }
+.flaticon2-picture:before { content: "\f101"; }
+.flaticon2-refresh-arrow:before { content: "\f102"; }
+.flaticon2-numbered-list:before { content: "\f103"; }
+.flaticon2-list-with-dots:before { content: "\f104"; }

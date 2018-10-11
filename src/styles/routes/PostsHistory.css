@@ -1,0 +1,21 @@
+.c-user-posts {
+    margin: 0 0 50px 0;
+    padding: 0;
+    list-style: none;
+}
+@media (max-width: 1199px){
+    .posts-history .title1 {
+        margin-top: 0;
+    }
+    .c-user-posts h4.link-h4 {
+        margin-bottom: 10px;
+    }
+    .posts-history .bott3 {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1200px){
+    .posts-history .title1 div{
+        font-size: 24px;
+    }
+}

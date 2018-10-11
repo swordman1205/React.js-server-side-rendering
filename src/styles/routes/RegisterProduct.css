@@ -1,0 +1,34 @@
+.register-product {
+    padding-bottom: 30px;
+}
+
+.register-product .h3-1{
+    margin-bottom: 20px;
+}
+
+.cont-center {
+    width: 570px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media (max-width: 1199px){
+    .cont-center {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.rp-top1 {
+    margin-top: 30px;
+}
+
+@media (max-width: 1199px){
+    .rp-top1 {
+        margin-top: 0;
+    }
+}
+
+.rp-pos {
+    margin: 40px auto;
+}

@@ -1,0 +1,36 @@
+.c-popup-erase-conf {
+    background-color: #fff;
+    width: 770px;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    padding: 50px 100px;
+}
+
+.c-popup-erase-conf h3 {
+    font-size: 18px;
+}
+
+.c-ecp-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+@media (max-width: 1199px){
+
+    .c-popup-erase-conf {
+        width: 90%;
+        top: 15px;
+        padding: 40px 15px;
+    }
+
+    .c-ecp-btns {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+}

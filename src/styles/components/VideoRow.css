@@ -1,0 +1,106 @@
+/* ------------ videos container -----------*/
+.c-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+@media (max-width: 1199px){
+    .c-videos {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 5px;
+    }
+}
+.video-item {
+    width: 46.5%;
+    margin-top: 25px;
+    text-decoration: none !important;
+}
+@media (max-width: 1199px){
+    .video-item {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+}
+.video {
+    position: relative;
+    width: 100%;
+    height: 122px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 1199px){
+    .video {
+        width: 110px;
+        height: 75px;
+        min-width: 110px;
+        min-height: 75px;
+        margin-right: 15px;
+    }
+}
+.video-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition-duration: 300ms;
+}
+.video-item:hover .video-cover {
+    background: rgba(0,0,0,0.5);
+    transition-duration: 300ms;
+}
+.v-text {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0 0;
+    margin: 0;
+    color: #433522;
+}
+@media (max-width: 1199px){
+    .v-text {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        font-weight: 600;
+        padding: 0;
+    }
+}
+.video-item:hover .v-text {
+    text-decoration: underline;
+}
+.under-tube {
+    background: #fff;
+    border-radius: 5px;
+    height: 20px;
+    width: 28px;
+}
+.tube {
+    color: #df1010;
+    font-size: 30px;
+    line-height: 20px;
+    text-decoration: none !important;
+}
+.video-date {
+    display: none;
+}
+@media (max-width: 1199px){
+    .video-date {
+        display: block;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        font-weight: 600;
+        color: #a1a1a2;
+    }
+}

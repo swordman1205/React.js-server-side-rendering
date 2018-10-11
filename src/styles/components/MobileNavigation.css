@@ -1,0 +1,89 @@
+.popup-cover {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    display: none;
+}
+@media (min-width: 1200px){
+    .popup-cover {
+        display: none;
+    }
+}
+.my-popup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 50px;
+    background: #fcfcfc;
+}
+.controls-center {
+    text-align: center;
+    padding: 25px;
+}
+.my-popup .c-search {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    position: relative;
+}
+.my-popup .btn-search {
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 0;
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    text-decoration: none !important;
+}
+.my-popup .i-search {
+    color: #44c735;
+    line-height: 36px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.my-popup .search-input {
+    width: 100%;
+    height: 36px;
+    background: transparent;
+    padding: 0 40px 0 15px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #aeaeae;
+    border: none;
+    outline: none;
+}
+.logo-popup {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("/images/header-mob-logo.png") no-repeat;
+    background-size: contain;
+    margin: 10px auto;
+}
+.c-top-popup {
+    padding: 0 50px;
+    position: relative;
+}
+.btn-close {
+    color: #44c735 !important;
+    font-size: 20px;
+    position: absolute;
+    left: 5px;
+    top: 0;
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 20px;
+    border: 3px solid #44c735;
+    border-radius: 50%;
+    text-decoration: none !important;
+    cursor: pointer;
+}

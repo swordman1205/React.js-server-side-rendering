@@ -1,0 +1,31 @@
+.c-upload-btn{
+    margin-top: 20px;
+}
+
+.upload-btn {
+    background: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    color: #433522;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 0;
+    text-align: center;
+    font-family: 'MontserratRegular', sans-serif;
+    cursor: pointer;
+}
+
+.upload-btn i {
+    margin: 5px 5px 0 0;
+}
+
+.upload-image{
+    height: 160px;
+    width: 160px;
+    border-radius: 5px;
+    background: center no-repeat;
+    background-size: cover;
+}

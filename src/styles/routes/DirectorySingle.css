@@ -1,0 +1,20 @@
+.flag {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    background: url("/images/flag.jpg");
+    vertical-align: calc(-4px);
+    margin-right: 10px;
+}
+p.p-directory {
+    font-size: 15px;
+    line-height: 24px;
+}
+@media (max-width: 1199px){
+    p.p-directory {
+        font-size: 13px;
+        line-height: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+

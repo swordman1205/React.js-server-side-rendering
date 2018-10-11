@@ -1,0 +1,91 @@
+.title1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #4ac93b;
+    padding: 8px 0;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.main-text {
+    font-size: 18px;
+    color: #433522;
+    text-transform: uppercase;
+}
+.title1 .main-text {
+    padding-right: 15px;
+}
+.main-text-sub {
+    font-size: 16px;
+    color: #433522;
+}
+.title1 .main-text .country-flag {
+    margin-bottom: 0;
+    position: relative;
+}
+.no-upper{
+    text-transform: none !important;
+}
+
+.go-link {
+    color: #4ac93b;
+}
+@media (max-width: 1199px){
+    .directory-category .title1 .main-text {
+        padding-right: 0;
+        padding-left: 35px;
+        position: relative;
+    }
+    .directory-category .title1 .main-text .country-flag {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .directory-single h3.h3-8 {
+        padding-right: 0;
+        padding-left: 35px;
+        position: relative;
+    }
+    .directory-single h3.h3-8 .country-flag{
+        position: absolute;
+        left: 0;
+        top: 5px;
+    }
+}
+@media (max-width: 1199px){
+    .title1 .go-link {
+        display: none;
+    }
+}
+.go-link-title {
+    min-width: 80px;
+}
+.icon {
+    font-size: 11px;
+    display: inline-block;
+    line-height: 15px;
+    padding-left: 10px;
+}
+.upper {
+    text-transform: uppercase;
+}
+@media (min-width: 1200px){
+    .directory .main-text {
+        font-size: 24px;
+        line-height: 30px;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    .directory .h3-8.leftalign {
+        font-size: 24px;
+        line-height: 30px;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    .directory .h3-8.leftalign .country-flag {
+        margin-bottom: 0;
+    }
+}

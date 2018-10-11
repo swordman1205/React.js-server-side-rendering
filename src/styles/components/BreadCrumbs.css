@@ -1,0 +1,35 @@
+ul.bread-crumbs {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 0 0 0;
+    color: #aeaeae;
+}
+@media (max-width: 1199px){
+    ul.bread-crumbs {
+        display: none;
+    }
+}
+ul.bread-crumbs li {
+    display: inline-block;
+}
+ul.bread-crumbs li:before {
+    font-family: "Flaticon";
+    content: "\f10d";
+    font-size: 8px;
+    line-height: 20px;
+    margin: 0 9px;
+    display: inline-block;
+    vertical-align: text-top;
+    color: #8f816d;
+}
+ul.bread-crumbs li:first-child:before {
+    display: none;
+}
+ul.bread-crumbs li a, ul.bread-crumbs li span{
+    display: inline-block;
+    color: #aeaeae !important;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}

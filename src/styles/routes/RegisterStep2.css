@@ -1,0 +1,21 @@
+h4.h4-sr2 {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 20px 0 30px;
+}
+@media (max-width: 1199px){
+    h4.h4-sr2 {
+        font-size: 15px;
+        line-height: 24px;
+        margin: 0 0 20px;
+    }
+}
+
+.rs2-pos {
+    margin-bottom: 80px;
+}
+@media (max-width: 1199px){
+    .cu1-btn-submit.rs2-pos {
+        margin-bottom: 40px;
+    }
+}

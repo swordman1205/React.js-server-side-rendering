@@ -1,0 +1,323 @@
+.c-cont1 {
+    background: #fbf5ec;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+@media (max-width: 1199px){
+    .c-cont1 {
+        padding: 25px 15px;
+    }
+}
+.green-button {
+    background: #44c735;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: white !important;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+@media (max-width: 1199px){
+    .green-button {
+        font-size: 12px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .c-green-button {
+        margin: 20px 0;
+    }
+}
+.green-button:hover {
+    background: #f48f23;
+    box-shadow: 10px 10px 15px 1px rgba(100,100,100,0.1);
+}
+.gb2 {
+    display: inline-block;
+    margin-top: 20px;
+}
+.c-cont2 {
+    padding: 50px;
+    text-align: center;
+    display: none;
+}
+@media (max-width: 1199px){
+    .c-cont2 {
+        padding: 20px 0;
+    }
+}
+.c-cont3 {
+    background: #fbf5ec;
+    padding: 25px 35px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    margin-top: 30px;
+}
+@media (max-width: 1199px){
+    .c-cont3 {
+        padding: 15px;
+        border-radius: 0;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+.c-foro-header {
+    background: #fbf5ec;
+    padding: 15px;
+}
+@media (max-width: 1199px){
+    .c-foro-header {
+        padding: 20px;
+        margin: 0 -20px;
+    }
+}
+.foro-title {
+    text-align: left;
+    margin: 0;
+    font-size: 24px;
+}
+@media (max-width: 1199px){
+    .foro-title {
+        text-align: left;
+        margin: 0 0 15px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+.c-f-foro-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 1199px){
+    .c-f-foro-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+a.btn-foro {
+    margin-right: 0;
+    margin-left: 20px;
+   /* min-width: 290px;*/
+    padding: 10px 10px;
+}
+@media (max-width: 1199px){
+    a.btn-foro {
+        padding: 9px 10px;
+        margin-right: 0;
+        margin-left: 0;
+        min-width: 100%;
+    }
+}
+a.btn-foro i {
+    font-size: 14px;
+    margin-right: 5px;
+}
+/*--------------- program container ------------*/
+.c-items>div:nth-child(3n+1) {
+    margin-left: 0;
+}
+.c-items>div:nth-child(3n+3) {
+    margin-right: 0;
+}
+.c-items {
+    display: block;
+    text-align: center;
+}
+.list-exp {
+    list-style: none;
+    font-size: 15px;
+    padding-left: 0;
+}
+@media (max-width: 1199px){
+    .list-exp {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.66;
+    }
+}
+.list-exp li {
+    display: block;
+    margin: 0 0 25px 0;
+    padding-left: 30px;
+    position: relative;
+}
+@media (max-width: 1199px){
+    .list-exp li {
+        margin: 0 0 15px 0;
+        padding-left: 20px;
+    }
+}
+.list-exp li:after {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-family: "Flaticon";
+    content: "\f112";
+    color: #44c735;
+    font-weight: 500;
+}
+@media (max-width: 1199px){
+    .list-exp li:after {
+        font-size: 14px;
+        top: 0;
+    }
+}
+.foro-menu {
+    display: block;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin-top: 20px;
+}
+@media (max-width: 1199px){
+    .foro-menu {
+        background: #fbf5ec;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 15px;
+    }
+}
+.foro-menu li {
+    display: inline-block;
+    border-right: 1px solid #dcd4ca;
+    padding: 0 10px;
+    margin-top: 5px;
+    line-height: 16px;
+}
+.foro-menu li:last-child {
+    border: none;
+}
+.foro-menu li a {
+    color: #433522;
+    font-size: 14px;
+    line-height: 12px !important;
+}
+.forum-title {
+    padding: 15px 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.ha-col {
+    margin: 0;
+    font-size: 14px;
+    list-style-type: none;
+    border-bottom: 1px solid #f3e6d4;
+    padding: 0 0 10px;
+}
+.ha-col li {
+    border-right: 1px solid #dcd4ca;
+    padding: 0 10px;
+    margin-top: 5px;
+    display: inline-block;
+    line-height: 14px;
+}
+
+.ha-col li:last-child {
+    border: none;
+}
+.ha-col li a {
+    color: #433522;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ha-col li a:hover, .ha-col li a.active {
+    color: #44c735;
+    text-decoration: none !important;
+}
+@media (max-width: 1199px){
+    .ha-col {
+        font-size: 12px;
+        padding: 0 5px 12px 5px;
+        margin: 0 -20px;
+    }
+}
+@media (max-width: 1199px){
+    ul.ha-col {
+        display: block;
+        line-height: 0;
+    }
+    .ha-col li {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .ha-col li a {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 18px;
+    }
+}
+.bott1-ho {
+    padding-bottom: 30px;
+}
+.sl-horizontal {
+    text-align: center;
+}
+ul.sl-horizontal li {
+    display: inline-block;
+}
+.home-mob-social {
+    padding: 30px 15px 10px;
+    text-align: center;
+}
+.home-mob-social h3.h3-4 {
+    text-align: center;
+}
+.home-mob-social ul.sl-horizontal {
+    width: 100%;
+}
+
+.c-glink {
+    margin-top: 10px;
+}
+.c-cont2 .c-glink {
+    margin-top: 20px;
+}
+@media (max-width: 1199px) {
+    .c-glink {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .home .c-text-banner2 {
+        padding: 0 0 100px;
+    }
+    .home .c-text-banner2 .h2-3{
+        font-size: 15px;
+    }
+    .home .c-text-banner2 .go-link.gl1 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .home .forum-title {
+        padding: 10px 0 0;
+        margin-left: -5px;
+        margin-right: -5px;
+        margin-bottom: 5px;
+    }
+    .home .c-green-button .green-button.gb2{
+        padding: 8px 30px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .top1-n1 {
+        margin-top: 50px !important;
+    }
+    .btn-w .c-mob-btn1{
+        width: 100%;
+    }
+    .c-cont2 .c-glink .underline {
+        font-family: 'MontserratRegular', sans-serif;
+    }
+    .home .confirm-msg {
+        margin-bottom: 0;
+    }
+}

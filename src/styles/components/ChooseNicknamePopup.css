@@ -1,0 +1,41 @@
+.s-text {
+    color: #aeaeae;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.c-nickname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0 20px 0;
+    font-size: 15px;
+}
+
+.cnp p {
+    font-size: 15px;
+}
+
+.cnp h3 {
+    font-size: 24px;
+}
+
+@media (max-width: 1199px){
+    .c-nickname {
+        font-size: 12px;
+    }
+
+    .s-text {
+        font-size: 12px;
+    }
+
+    .cnp p {
+        font-size: 12px;
+    }
+
+    .cnp h3 {
+        font-size: 14px;
+        max-width: 150px;
+    }
+}

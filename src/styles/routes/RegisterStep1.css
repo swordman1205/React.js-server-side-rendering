@@ -1,0 +1,47 @@
+.rs1-top1 {
+    margin-top: 30px;
+}
+@media (max-width: 1199px){
+    .rs1-top1 {
+        margin-top: 0;
+    }
+}
+h4.h4-sr1 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 30px 0 40px;
+}
+@media (max-width: 1199px){
+    h4.h4-sr1 {
+        font-size: 12px;
+        line-height: 40px;
+        margin: 20px 0 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+.rs1-pos {
+    margin: 40px auto;
+}
+.rs1-pos2 {
+    margin-bottom: 80px;
+}
+@media (max-width: 1199px){
+    .rs1-pos2 {
+        margin: 25px auto 40px;
+    }
+}
+.register-step1 .gl1 i:before {
+    color: #4ac93b;
+}
+@media (max-width: 1199px){
+    .register-step1 .gl1 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .register-step1 .gl1 i {
+        display: none;
+    }
+    .register-step1 .top1 {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,120 @@
+.c-step-bar3 {
+    min-height: 62px;
+    position: relative;
+}
+
+
+@media (max-width: 1199px){
+    .c-step-bar3 {
+        display: block;
+        width: 100%;
+    }
+}
+.sb3-bar {
+    position: relative;
+    margin-top: 30px;
+    height: 5px;
+    background-color: #f2f2f2;
+}
+.c-sb3-marker1 {
+    position: absolute;
+    top: -16px;
+    left: calc(25% - 55px);
+    width: 110px;
+}
+
+.c-sb3-marker2 {
+    position: absolute;
+    top: -16px;
+    left: calc(50% - 55px);
+    width: 110px;
+}
+
+.c-sb3-marker3 {
+    position: absolute;
+    top: -16px;
+    right: calc(25% - 55px);
+    width: 110px;
+}
+
+@media (max-width: 1199px){
+    .c-sb3-marker1 {
+        left: calc(15% - 40px);
+        width: 80px;
+    }
+
+    .c-sb3-marker2 {
+        left: calc(45% - 40px);
+        width: 80px;
+    }
+
+    .c-sb3-marker3 {
+        right: calc(15% - 40px);
+        width: 80px;
+    }
+}
+
+.sb3-marker {
+    width: 35px;
+    height: 35px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 14px;
+}
+.active .sb3-marker {
+    background-color: #44c735;
+}
+.sb3-marker > div {
+    display: inline-block;
+    line-height: 37px;
+    /*position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    right: 3px;
+    border-radius: 50%;
+    border: 3px solid white;
+    line-height: 26px;*/
+}
+.sb3-progress {
+    background-color: #caf2c5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.prog31 {
+    width: 25%;
+}
+
+.prog32 {
+    width: 50%;
+}
+
+@media (max-width: 1199px){
+    .prog31 {
+        width: 15%;
+    }
+
+    .prog32 {
+        width: 45%;
+    }
+}
+.sb3-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #adadad;
+}
+.active .sb3-label {
+    color: #433522;
+}
+
+@media (max-width: 1199px){
+    .sb3-label {
+        font-size: 10px;
+    }
+}

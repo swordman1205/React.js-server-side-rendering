@@ -1,0 +1,114 @@
+.directory-post p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 35px;
+}
+@media (max-width: 1199px){
+    .directory-post p {
+        line-height: 24px;
+    }
+}
+@media (max-width: 1199px){
+    .directory-post p {
+        margin-top: 20px;
+    }
+}
+ul.dp-text-unit {
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+@media (max-width: 1199px){
+    ul.dp-text-unit {
+        order: 1;
+        overflow: hidden;
+        display: block;
+        padding-top: 10px;
+    }
+}
+ul.dp-text-unit li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+ul.dp-text-unit li i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 13px;
+}
+ul.dp-text-unit li a {
+    text-decoration: underline;
+    color: #3b5998;
+}
+ul.dp-text-unit li a:hover {
+    text-decoration: none;
+}
+.blue-icon {
+    color: #3b5998;
+}
+.green-icon {
+    color: #44c735;
+}
+.dp-image {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    background-size: cover;
+    min-width: 250px;
+}
+@media (max-width: 1199px){
+    .dp-image {
+        width: 100%;
+        height: 140px;
+        border-radius: 5px;
+        background-size: cover;
+    }
+}
+.c-dp-top {
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1199px){
+    .c-dp-top {
+        flex-direction: column;
+        margin-top: 15px;
+
+    }
+    p.dp-mobile-top {
+        display: block;
+        margin-top: -20px;
+    }
+    p.dp-mobile-bottom {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.h3-dp-mobile {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+@media (max-width: 1199px){
+    .h3-dp-mobile {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .dp-mobile-top.dp-mobile-bottom {
+        margin-top: 0;
+    }
+    .mob-bott-new1 {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1200px){
+    .directory-post .c-comments .flaticon-comments{
+        margin-right: 12px;
+    }
+}

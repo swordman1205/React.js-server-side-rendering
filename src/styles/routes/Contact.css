@@ -1,0 +1,81 @@
+.contact .fotm1 {
+    display: block;
+    padding: 0 115px 80px 10px;
+}
+@media (max-width: 1199px){
+    .contact .fotm1 {
+        display: block;
+        padding: 10px 0 40px 0;
+    }
+}
+
+.cu-submit {
+    cursor: pointer;
+}
+/*--------------- baner ------------*/
+.alejandra-banner {
+    width: 470px;
+    padding: 40px 40px 0;
+    position: relative;
+    margin-top: 10px;
+}
+@media (max-width: 1199px){
+    .alejandra-banner {
+        display: none;
+    }
+}
+.alejandra-banner p {
+    font-size: 15px;
+    line-height: 23px;
+    color: #433522;
+}
+.alegandra3 {
+    width: 400px;
+    height: 490px;
+    background: url("/images/3.png");
+    background-size: contain;
+    margin-top: 20px;
+}
+.ab-border {
+    border: 5px solid rgba(229,229,229,0.39);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+.ab-logo {
+    background: url("/images/contact-logo.png");
+    background-size: contain;
+    height: 68px;
+    width: 77px;
+    position: absolute;
+    bottom: 50%;
+    right: 15%;
+}
+
+.line-controls-phone{
+    display: flex;
+    flex-direction: row;
+}
+
+.c-phone-code{
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    height: 45px;
+    border: 1px solid #dfdfdf;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 0 15px;
+    line-height: 45px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 1199px){
+    .c-phone-code{
+        font-size: 12px;
+    }
+}

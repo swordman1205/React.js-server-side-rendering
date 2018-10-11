@@ -1,0 +1,115 @@
+/* --------------- Top Banner -------------*/
+.top-banner {
+    min-height: 44px;
+    background-color: #fbf5ec;
+    border-top: 6px solid #f8f2e9;
+}
+.c-image-banner {
+    width: 392px;
+    min-width: 392px;
+    position: relative;
+    overflow: hidden;
+}
+@media (max-width: 1199px){
+    .c-image-banner {
+        width: 160px;
+        min-width: 160px;
+        position: relative;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+}
+.shape-round {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    height: 262px;
+    width: 262px;
+    border-radius: 50%;
+    background: #f7ebd9;
+}
+@media (max-width: 1199px){
+    .shape-round {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        height: 155px;
+        width: 155px;
+        border-radius: 50%;
+        background: #f7ebd9;
+    }
+}
+.alejandra1 {
+    height: 276px;
+    width: 276px;
+    background: url("../../../images/1.png");
+    background-size: contain;
+    position: relative;
+    margin: 0 auto;
+}
+@media (max-width: 1199px){
+    .alejandra1 {
+        height: 174px;
+        width: 160px;
+        max-height: 174px;
+        max-width: 160px;
+        min-height: 174px;
+        min-width: 160px;
+        background: url("../../../images/1m.png") no-repeat;
+        background-size: contain;
+        position: relative;
+        margin: 0 auto;
+    }
+}
+.c-inner-top-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: relative;
+}
+.c-text-banner {
+    text-align: center;
+    padding: 20px 0 40px;
+}
+@media (max-width: 1199px){
+    .c-text-banner {
+        text-align: center;
+        padding: 5px 0 20px;
+    }
+    .c-text-banner h1.h1-1 {
+        line-height: 24px;
+        margin: 10px 0 0;
+    }
+}
+.c-text-banner2 {
+    text-align: center;
+    padding: 20px 0 100px;
+    width: 100%;
+}
+@media (max-width: 1199px){
+    .c-text-banner2 {
+        text-align: center;
+        padding: 0 20px 100px;
+    }
+
+    .c-text-banner2 span.underline {
+        font-family: 'MontserratRegular', sans-serif;
+    }
+}
+.sc-msg-top {
+    margin-top: 40px;
+    margin-bottom: -30px;
+}
+@media (max-width: 1199px){
+    .sc-msg-top{
+        margin-top: 20px;
+    }
+}
+.p-subtext {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+}

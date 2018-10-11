@@ -1,0 +1,101 @@
+.my-pagination {
+    display: block;
+    border-top: 1px solid #f1f1f1;
+    padding: 25px 0;
+    text-align: center;
+    margin: 0;
+}
+.my-pagination.dark {
+    border-top: none;
+    margin-bottom: 0;
+}
+@media (max-width: 1199px){
+    .my-pagination {
+        /*display: none;*/
+        padding: 10px 0;
+        border-top: none;
+        margin: 0 -20px;
+    }
+}
+.my-pagination li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.my-pagination li a, .my-pagination li span {
+    display: block;
+    border-radius: 50%;
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #433522;
+    text-decoration: none !important;
+}
+.my-pagination li.sel a,
+.my-pagination li:hover a,
+.my-pagination li.sel span,
+.my-pagination li:hover span {
+    display: block;
+    background: #44c735;
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.my-pagination li.active a,
+.my-pagination li.active span {
+    background: #fbf5ec;
+    color: #433522 !important;
+    font-size: 15px;
+    cursor: default;
+    text-decoration: none !important;
+}
+
+@media (max-width: 1199px){
+    .my-pagination li {
+        margin: 0 2px;
+    }
+
+    .my-pagination li a, .my-pagination li span {
+        font-size: 13px;
+    }
+
+    .my-pagination li.sel a,
+    .my-pagination li:hover a,
+    .my-pagination li.sel span,
+    .my-pagination li:hover span {
+        font-size: 13px;
+    }
+    .my-pagination li.active a,
+    .my-pagination li.active span {
+        font-size: 13px;
+    }
+}
+
+.my-pagination.dark li.active a,
+.my-pagination.dark li.active span {
+    background: #fff;
+}
+.my-pagination li.pag-left {
+    margin-right: 40px;
+}
+.my-pagination li.pag-right {
+    margin-left: 40px;
+}
+
+@media (max-width: 1199px){
+    .my-pagination li.pag-left {
+        margin-right: 5px;
+    }
+    .my-pagination li.pag-right {
+        margin-left: 5px;
+    }
+
+    #right-dots span, #left-dots span{
+        width: 15px !important;
+    }
+}
+.pg-bg {
+    background: white;
+}

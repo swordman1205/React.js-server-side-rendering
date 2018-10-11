@@ -1,0 +1,31 @@
+.e-conf {
+    padding-bottom: 90px;
+}
+
+.e-conf p{
+    font-size: 15px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    text-align: center;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1199px){
+    .e-conf {
+        padding-bottom: 30px;
+    }
+
+    .e-conf p{
+        font-size: 12px;
+        line-height: 24px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        max-width: 100%;
+    }
+
+    .mob-p2 {
+        padding-top: 35px !important;
+        padding-bottom: 20px !important;
+    }
+}

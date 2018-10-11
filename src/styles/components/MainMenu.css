@@ -1,0 +1,64 @@
+.c-right-row ul.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.c-right-row ul.top-menu li {
+    padding: 0;
+    margin-right: 40px;
+}
+.c-right-row ul.top-menu li a {
+    padding: 10px 0;
+    border-bottom: 4px solid transparent;
+    text-decoration: none !important;
+    color: #433522;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.c-right-row ul.top-menu li a.active,
+.c-right-row ul.top-menu li a:hover {
+    border-bottom: 3px solid  #44c735;
+    color: #44c735;
+}
+
+.my-popup ul.top-menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    display: block;
+}
+.my-popup ul.top-menu li {
+    display: block;
+    border-bottom: 1px solid #e8e8e8;
+}
+.my-popup ul.top-menu li a {
+    display: block;
+    color: #433522;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-weight: 600;
+    padding: 5px 40px 5px 25px;
+    position: relative;
+}
+.my-popup ul.top-menu li a.active,
+.my-popup ul.top-menu li a:hover {
+    color: #44c735;
+}
+.my-popup ul.top-menu li a:after {
+    content: "\f11b";
+    display: inline-block;
+    font-family: Flaticon;
+    font-style: normal;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #4ac93b;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-weight: normal;
+}

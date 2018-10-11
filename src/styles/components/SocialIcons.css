@@ -1,0 +1,21 @@
+.date-text a {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none !important;
+    border: 1px solid red;
+}
+@media (max-width: 1199px){
+    .m-socials-hide a {
+        display: none;
+    }
+    .mt10 {
+        margin-top: 10px;
+    }
+/*    .date-text a {
+        display: none;
+    }*/
+}
+.slink {
+    display: inline-block !important;
+    margin-left: 10px;
+}

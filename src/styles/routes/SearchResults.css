@@ -1,0 +1,40 @@
+.search-results a{
+    color: #433522;
+}
+
+.search-results a:hover{
+    text-decoration: none;
+    color: #433522;
+}
+
+.search-results p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.search-results h4 {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media (max-width: 1199px){
+    .search-results p {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .search-results h4 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+.show-mob {
+    display: none;
+}
+
+@media (max-width: 1199px){
+    .show-mob {
+        display: block;
+    }
+}

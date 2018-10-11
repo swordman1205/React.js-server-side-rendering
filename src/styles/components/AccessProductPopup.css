@@ -1,0 +1,119 @@
+.app-popup{
+    padding-bottom: 10px !important;
+    padding-top: 25px !important;
+}
+
+.app-popup h4{
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: bold;
+    margin: 0 0 30px 0 !important;
+}
+
+@media (max-width: 1199px){
+    .app-popup h4{
+        display: block;
+        max-width: 80%;
+        margin: 20px auto !important;
+
+    }
+}
+
+.app-bottom .btn2 {
+    background: transparent !important;
+    margin-right: 0 !important;
+    padding: 8px 20px;
+}
+
+.app-underline {
+    text-decoration: underline;
+}
+
+.register-btn3 {
+    margin: 20px auto;
+    width: 260px;
+    cursor: pointer;
+}
+
+.app-popup-mob .c-popup {
+    min-height: 370px;
+    overflow: auto;
+}
+
+@media (max-width: 1199px){
+    .register-btn3 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .app-popup-mob .c-popup {
+        min-height: 325px;
+        overflow: hidden;
+    }
+}
+
+.app-border {
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    position: relative;
+}
+
+.app-border span {
+    position: absolute;
+    top: 0;
+    right: 125px;
+    color: #433522;
+    font-family: "Open Sans", sans-serif;
+}
+
+.app-line {
+    width: 105px;
+    height: 1px;
+    border-top: 1px solid #f4eada;
+    position: absolute;
+    top: 13px;
+
+}
+
+.app-line-left {
+    left: 0;
+}
+
+.app-line-right {
+    right: 0;
+}
+
+.app-bottom {
+    background-color: #fbf5ec;
+    padding: 20px 40px 40px 40px;
+    text-align: center;
+}
+
+.app-bottom h3{
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+.c-app-popup {
+    min-height: 340px !important;
+}
+
+@media (max-width: 1199px){
+    .c-app-popup {
+        min-height: 315px !important;
+    }
+    .after-buy-popup .ap-popup-h3 {
+        font-size: 15px;
+        line-height: 20px;
+        color: #44c735;
+        padding-bottom: 20px;
+    }
+    .btn2.btn2-plus {
+        background: white !important;
+    }
+}
+
+
+

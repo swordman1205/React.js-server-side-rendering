@@ -1,0 +1,33 @@
+.programsRow{
+/*    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;*/
+    display: block;
+    padding-top: 5px;
+}
+
+@media (max-width: 1199px){
+    .programsRow{
+        display: block;
+    }
+}
+
+.programsItem {
+    height: 390px;
+/*    width: 280px;*/
+}
+.offset-text-programs {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+@media (max-width: 1199px){
+    .programsItem{
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    .programs-page .bott3 {
+        margin-bottom: 0;
+    }
+}

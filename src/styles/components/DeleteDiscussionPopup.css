@@ -1,0 +1,36 @@
+.c-popup-dd {
+    background-color: #fff;
+    width: 770px;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    padding: 50px 100px;
+}
+
+.c-popup-dd h3 {
+    font-size: 18px;
+}
+
+.c-dd-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+@media (max-width: 1199px){
+
+    .c-popup-dd {
+        width: 90%;
+        top: 15px;
+        padding: 40px 15px;
+    }
+
+    .c-dd-btns {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+}

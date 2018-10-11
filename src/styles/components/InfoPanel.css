@@ -1,0 +1,19 @@
+.info-panel {
+    font-size: 13px;
+    line-height: 17px;
+    color: #adadad;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.br1 {
+    margin-right: 10px;
+}
+
+@media (max-width: 1199px){
+    .ml0 {
+        margin-left: 0 !important;
+    }
+    .br1 {
+        display: block;
+    }
+}

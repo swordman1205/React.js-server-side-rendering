@@ -1,0 +1,184 @@
+.footer {
+    border-top: 2px solid #f2f2f2;
+    margin: 0;
+    padding: 60px 0;
+}
+@media (max-width: 1199px){
+    .footer {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+}
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 60px;
+}
+@media (max-width: 1199px){
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+    }
+}
+.footer-logo {
+    background: url(/images/footer-logo.png);
+    background-size: contain;
+    width: 104px;
+    min-width: 104px;
+    height: 90px;
+    display: block;
+    margin-right: 40px;
+}
+@media (max-width: 1199px){
+    .footer-logo {
+        width: 60px;
+        min-width: 60px;
+        height: 52px;
+        display: block;
+        margin-right: 0;
+        background-size: cover;
+    }
+}
+.footer-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+@media (max-width: 1199px){
+    .footer-text {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+.c-footer-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+@media (max-width: 1199px){
+    .c-footer-btns {
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .c-footer-btns a {
+        width: 100%;
+    }
+    .c-footer-btns .btn2 {
+        margin-right: 0;
+    }
+}
+.footer-bottom {
+    font-size: 11px;
+    font-weight: normal;
+    color: #a1a1a2;
+    line-height: 16px;
+    border-top: 1px solid #efefef;
+    padding-top: 60px;
+}
+@media (min-width: 1200px){
+    .footer-bottom-mob {
+        display: none;
+    }
+}
+@media (max-width: 1199px){
+    .footer-bottom {
+        display: none;
+    }
+    .footer-bottom-mob {
+        font-size: 8px;
+        font-weight: normal;
+        color: #a1a1a2;
+        line-height: 14px;
+        border-top: 1px solid #efefef;
+        padding: 20px 0 0;
+    }
+}
+ul.social-list {
+    display: block;
+    list-style: none;
+    padding-left: 0;
+}
+@media (max-width: 1199px){
+    ul.social-list {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+}
+ul.social-list li {
+    display: block;
+    margin-top: 20px;
+}
+@media (max-width: 1199px){
+    ul.social-list li {
+        display: block;
+        margin-top: 20px;
+        text-align: left;
+    }
+}
+ul.social-list li a {
+    color: #6c593d;
+    text-decoration: none;
+}
+ul.social-list li a:hover i {
+    border: 1px solid #3b5998;
+    background: #3b5998;
+    color: #fff;
+    text-decoration: none !important;
+}
+ul.social-list li a:hover i.flaticon-youtube {
+    border: 1px solid #af2b29;
+    background: #af2b29;
+}
+ul.social-list li a:hover i.flaticon-instagram-logo {
+    border: 1px solid transparent;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b3ce4+0,942296+31,ea4c38+64,f7ba49+100 */
+    /*background: #3b3ce4;
+    background: linear-gradient(to bottom,  #3b3ce4 0%,#942296 31%,#ea4c38 64%,#f7ba49 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+}
+ul.social-list li a:hover i.flaticon-twitter-logo-silhouette {
+    border: 1px solid #1da1f2;
+    background: #1da1f2;
+}
+ul.social-list i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #6c593d;
+    color: #6c593d;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+@media (max-width: 1199px){
+    .fb-page{
+        width: 100% !important;
+        margin: 40px 0 0 0;
+    }
+}
+.policy-link {
+    color: #4ac93b !important;
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+@media (max-width: 1199px){
+    .policy-link {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}

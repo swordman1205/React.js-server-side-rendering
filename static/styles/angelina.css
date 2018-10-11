@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'angelinaregular';
+    src: url('../../fonts/angelina/angelina-webfont.eot');
+    src: url('../../fonts/angelina/angelina-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/angelina/angelina-webfont.woff2') format('woff2'),
+    url('../../fonts/angelina/angelina-webfont.woff') format('woff'),
+    url('../../fonts/angelina/angelina-webfont.ttf') format('truetype'),
+    url('../../fonts/angelina/angelina-webfont.svg#angelinaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

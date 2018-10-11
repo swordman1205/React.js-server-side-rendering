@@ -1,0 +1,39 @@
+.pp {
+    max-width: 970px;
+    padding-bottom: 90px;
+}
+
+.pp p {
+    font-size: 15px;
+    color: #433522;
+}
+
+.pp .h2-1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (max-width: 1199px){
+    .pp {
+        padding-bottom: 30px;
+    }
+
+    .pp p {
+        font-size: 12px;
+    }
+}
+
+.pp-p {
+    text-align: center;
+}
+
+@media (max-width: 1199px){
+    .pp-p {
+        text-align: left;
+    }
+}
+
+.pp .c-mail{
+    margin: 30px auto;
+}

@@ -1,0 +1,47 @@
+.bottom-banner {
+    min-height: 44px;
+    background-color: #fbf5ec;
+    margin-top: 50px;
+}
+
+@media (max-width: 1199px){
+    .bottom-banner {
+        background-color: transparent;
+        margin: 20px 0;
+    }
+}
+
+.bottom-menu {
+    padding: 40px 0;
+    background-color: #fbf5ec;
+}
+
+.bottom-menu ul {
+    margin-top: 30px;
+}
+
+.bottom-menu ul li {
+    display: inline-block;
+}
+.c-menu {
+    text-align: center;
+}
+@media (min-width: 1200px){
+    .btn13 {
+        padding: 15px 30px;
+        background-color: #fff;
+        border: 1px solid #f5e8d5;
+        border-radius: 5px;
+        color: #433522;
+        font-size: 15px;
+        margin: 10px 5px;
+        display: inline-block;
+    }
+
+    .btn13:hover {
+        background-color: #44c735;
+        color: #fff;
+        border: 1px solid #44c735;
+        text-decoration: none;
+    }
+}

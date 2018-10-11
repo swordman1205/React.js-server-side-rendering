@@ -1,0 +1,90 @@
+.err404 {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.err404 p {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.img404{
+    background: url("/images/error-404.png") no-repeat center;
+    background-size: contain;
+    margin: 0 auto;
+    height: 243px;
+    width: 557px;
+}
+
+.search-field {
+    max-width: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.search-field i {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #44c735;
+    cursor: pointer;
+}
+
+.c-btn-err404 {
+    background: #44c735;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1199px){
+    .err404 {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .err404 p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+
+    .img404{
+        height: 130px;
+        width: 240px;
+    }
+
+    .search-field {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    .search-field i {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #44c735;
+    }
+
+    .c-btn-err404 {
+        padding: 20px;
+        font-size: 12px;
+        line-height: 12px;
+        max-width: 170px;
+    }
+}

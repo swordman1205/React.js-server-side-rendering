@@ -1,0 +1,82 @@
+.c-banner1 {
+    padding: 30px 30px 40px 30px;
+    background: #fbf5ec;
+    border-radius: 5px 5px 0 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+@media (max-width: 1199px){
+    .c-banner1 {
+        padding: 30px 20px;
+        background: #fbf5ec;
+        border-radius: 5px 5px 0 0;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+.c-b1-tob {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.c-b1-tob .h3-9 {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+@media (max-width: 1199px){
+    .c-b1-tob {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .c-b1-tob .h3-9 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+.banner1-logo {
+    display: block;
+    width: 102px;
+    min-width: 102px;
+    height: 102px;
+    min-height: 102px;
+    background: url("/images/banner2-logo.png") center center white no-repeat;
+    border-radius: 50%;
+    background-size: contain;
+    margin-right: 15px;
+}
+@media (max-width: 1199px){
+    .banner1-logo {
+        display: block;
+        width: 75px;
+        min-width: 75px;
+        height: 75px;
+        min-height: 75px;
+        margin-right: 0;
+    }
+}
+.c-b1-bott {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 24px;
+}
+@media (max-width: 1199px){
+    .c-b1-bott {
+        margin-top: -5px;
+    }
+    .l1 {
+        font-family: 'MontserratRegular', sans-serif;
+    }
+    .c-banner1 .go-link {
+        padding-top: 5px;
+        display: block;
+    }
+}

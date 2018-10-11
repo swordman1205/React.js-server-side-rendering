@@ -1,0 +1,76 @@
+.ns-date {
+    font-family: "Open Sans", sans-serif;
+    color: #a1a1a2;
+    padding-right: 10px;
+}
+
+.ns-discussion {
+    display: flex;
+    flex-direction: row;
+}
+
+.ns-avatar {
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+    background: center no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.ns-letter {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.new-search a{
+    color: #433522;
+}
+
+.new-search a:hover{
+    text-decoration: none;
+    color: #433522;
+}
+
+.link-h4:hover{
+    text-decoration: underline;
+    color: #433522;
+}
+
+.new-search p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.new-search h4 {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.ns-disc-msg {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.search-results-ul li:first-child .top4 {
+    margin-top: 20px;
+}
+
+@media (max-width: 1199px){
+    .new-search p {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .new-search h4 {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+}

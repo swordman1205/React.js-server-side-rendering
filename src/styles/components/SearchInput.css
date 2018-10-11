@@ -1,0 +1,30 @@
+.c-search {
+    width: 270px;
+    height: 38px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    position: relative;
+}
+.btn-search {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 100%;
+    height: 36px;
+    background: transparent;
+    padding: 0 40px 0 40px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #aeaeae;
+    border: none;
+    outline: none;
+}

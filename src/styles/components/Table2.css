@@ -1,0 +1,110 @@
+.text1 {
+    font-size: 16px;
+}
+
+/* -------------------------- mob-list for Mobile version instead teble1 */
+.table2 {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.table2 > li {
+    display: block;
+    border-bottom: 1px solid #f6f1e8;
+    padding: 15px;
+    margin: 0 -20px;
+}
+.table2 > li:hover {
+    background: rgba(245,232,213,0.3);
+    cursor: pointer;
+}
+@media (min-width: 1200px){
+    .table2 > li {
+        display: block;
+        border-bottom: 1px solid #f6f1e8;
+        padding: 15px 5px;
+        margin: 0;
+    }
+    .table2 > li:last-child {
+        border-bottom: none;
+    }
+}
+.c-list-inner2 {
+    display: flex;
+    flex-direction: row;
+}
+.list-content2 {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+@media (min-width: 1200px){
+    .list-content2 {
+        font-size: 15px;
+        line-height: 24px;
+        font-family: 'MontserratRegular', sans-serif;
+        font-weight: 500;
+    }
+}
+ul.list-panel2 {
+    padding: 0;
+    margin: 10px 0 0 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 11px;
+    line-height: 14px;
+    color: #9d907c;
+    font-family: 'Open Sans', sans-serif;
+}
+ul.list-panel2 i {
+    font-size: 13px;
+}
+
+ul.list-panel2 li:first-child {
+    width: 34%;
+}
+ul.list-panel2 li:nth-child(2) {
+    width: 22%;
+}
+ul.list-panel2 li:nth-child(3) {
+    width: 17%;
+}
+ul.list-panel2 li:nth-child(4) {
+    width: 27%;
+    text-align: left;
+}
+
+@media (max-width: 1199px){
+    ul.list-panel li:first-child {
+        width: 33%;
+    }
+    ul.list-panel li:nth-child(2) {
+        width: 16%;
+    }
+    ul.list-panel li:nth-child(3) {
+        width: 16%;
+    }
+    ul.list-panel li:nth-child(4) {
+        width: 34%;
+        text-align: right;
+    }
+
+}
+@media (min-width: 1200px){
+    ul.list-panel2 {
+        padding-left: 70px;
+        font-size: 14px;
+    }
+    ul.list-panel2 i {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+}
+.short-description {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}

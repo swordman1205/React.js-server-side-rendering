@@ -1,0 +1,47 @@
+.n-search .c-search {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .n-search .c-search {
+        display: block;
+        width: 100%;
+        height: 38px;
+        border: 1px solid #44c735;
+        border-radius: 3px;
+        position: relative;
+    }
+    .n-search .btn-search {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        text-decoration: none !important;
+    }
+    .n-search .i-search {
+        color: #c1c1c1;
+        line-height: 36px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .n-search .search-input {
+        width: 100%;
+        height: 36px;
+        background: transparent;
+        padding: 0 15px 0 40px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: #564b3d;
+        border: none;
+        outline: none;
+    }
+}
+
+.search-results-ul {
+    margin: 0 0 50px 0;
+    padding: 0;
+    list-style: none;
+}

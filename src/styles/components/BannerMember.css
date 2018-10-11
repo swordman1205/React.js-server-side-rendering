@@ -1,0 +1,29 @@
+h2.h2-bm {
+    color: #433522;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+@media (max-width: 1199px){
+    h2.h2-bm {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.c-member-banner {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+@media (max-width: 1199px){
+    .c-member-banner {
+        text-align: center;
+        padding: 15px 20px 20px;
+    }
+
+    .page.home .c-member-banner {
+        padding: 15px 0px 20px;
+    }
+}

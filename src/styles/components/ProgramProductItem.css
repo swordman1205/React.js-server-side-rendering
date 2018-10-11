@@ -1,0 +1,126 @@
+.c-program {
+    margin: 15px 0 45px;
+}
+@media (max-width: 1199px){
+    .c-program {
+        margin: 15px 0 35px;
+    }
+}
+.scale{
+    height: 20px;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #fbf5ec;
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
+}
+
+@media (max-width: 1199px){
+    .scale{
+        width: 100%;
+    }
+}
+
+.c-scale{
+    margin-top: 25px;
+    height: 50px;
+    border: 1px solid transparent;
+}
+
+.full-scale{
+    height: 20px;
+    background-color: #4ac93b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.program-image{
+    min-width: 280px;
+    width: 100%;
+    min-height: 155px;
+    height: 158px;
+    border-radius: 5px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fbf5ec;
+}
+
+@media (max-width: 1199px){
+    .program-image{
+        width: 100%;
+        padding-top: 60%;
+    }
+}
+.program-image.no-img {
+    background-size: contain;
+}
+.c-program-title{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+@media (max-width: 1199px){
+    .c-program-title{
+        padding-bottom: 10px;
+    }
+}
+.l-program-title{
+    font-size: 18px;
+    color: #433522 !important;
+    text-decoration: none !important;
+}
+
+a.l-program-title:hover .program-title {
+    color: #4ac93b
+}
+
+.program-text{
+    font-size: 15px;
+}
+
+@media (max-width: 1199px){
+    .program-text{
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+    }
+}
+
+.scale-value{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    font-size: 14px
+}
+
+.add-img{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+.mark-img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: none !important;
+}
+.c-product-item {
+    margin-top: 20px;
+}
+@media (max-width: 1199px){
+    .c-product-item {
+        margin-top: 0;
+    }
+    .row .col-lg-3:first-child {
+        margin-top: 20px;
+    }
+    .programs-page {
+        padding-bottom: 15px;
+    }
+}

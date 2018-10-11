@@ -1,0 +1,46 @@
+# If clients beta then auth
+AuthType Basic
+AuthName "Members Only"
+AuthUserFile /home/nuevasevasadmin/beta.nuevasevas.com/client/.htpasswd
+SetEnvIf HOST "^beta.nuevasevas.com" deny
+Order allow,deny
+require valid-user
+Allow from all
+Deny from env=deny
+Satisfy any
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirects from old urls
+    RewriteCond %{REQUEST_URI} ^/5-alimentos-para-moldear-la-cintura$
+    RewriteRule ^.*$ https://%{SERVER_NAME}/blog/87-5-alimentos-para-moldear-la-cintura? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/como-aliviar-problemas-estrenimiento-persona-amargada$
+    RewriteRule ^.*$ https://%{SERVER_NAME}/blog/88-como-aliviar-problemas-estrenimiento-persona-amargada? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/alimentos-para-evitar-aliviar-calores-menopausia$
+    RewriteRule ^.*$ https://%{SERVER_NAME}/blog/89-alimentos-para-evitar-aliviar-calores-menopausia? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/mejor-leche-para-sustituir-leche-de-vaca$
+    RewriteRule ^.*$ https://%{SERVER_NAME}/blog/90-mejor-leche-para-sustituir-leche-de-vaca? [R=301,L]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

@@ -1,0 +1,20 @@
+.register-banner {
+    padding: 30px 0;
+}
+
+.register-btn2 {
+    margin: 20px auto;
+    width: 300px;
+    cursor: pointer;
+}
+
+@media (max-width: 1199px){
+    .register-banner h3{
+        width: 80%;
+    }
+
+    .register-btn2 {
+        width: 100%;
+        padding: 0 20px;
+    }
+}

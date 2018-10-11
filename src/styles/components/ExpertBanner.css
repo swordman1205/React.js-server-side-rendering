@@ -1,0 +1,105 @@
+.expert-banner {
+    background: #fbf5ec url(/images/bg-exp-banner.png) right bottom no-repeat;
+    padding: 30px 30px 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+@media (min-width: 1200px){
+    .expert-banner {
+        background-position-y: 70%;
+    }
+}
+
+@media (max-width: 1199px){
+    .expert-banner {
+        background: #fbf5ec url(/images/bg-exp-banner.png) right bottom no-repeat;
+        padding: 20px 20px 0;
+        background-size: 80%;
+    }
+    .expert-banner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media (min-width: 1200px){
+    .sidebar .expert-banner {
+        background-position-y: 82%;
+    }
+}
+.c-exp-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.exp-pict {
+    margin-left: -10px;
+    margin-top: 10px;
+    display: block;
+    width: 256px;
+    height: 256px;
+    min-width: 256px;
+    min-height: 256px;
+    background: url(/images/2.png) no-repeat;
+    background-size: contain;
+}
+@media (max-width: 1199px){
+    .exp-pict {
+        margin-left: -10px;
+        margin-top: 10px;
+        display: block;
+        width: 160px;
+        height: 164px;
+        min-width: 160px;
+        min-height: 164px;
+        background: url(/images/2m.png) no-repeat;
+        background-size: contain;
+    }
+}
+.exp-text {
+    text-align: center;
+    min-width: 180px;
+    max-width: 50%;
+    margin-top: 49px;
+    margin-left: -30px;
+    font-size: 14px;
+    line-height: 24px;
+}
+@media (max-width: 1199px){
+    .exp-text {
+        min-width: 120px;
+        max-width: 50%;
+        margin-top: 30px;
+        margin-left: -20px;
+        font-size: 10px;
+        line-height: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .bold-mob {
+        font-weight: 600;
+    }
+}
+.exp-panel {
+    background: rgba(211,202,192,0.9);
+    min-height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 5px 5px;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    text-align: right;
+}
+@media (max-width: 1199px){
+    .exp-panel {
+        min-height: 40px;
+        border-radius: 0 0 5px 5px;
+        font-size: 12px;
+        line-height: 40px;
+        padding: 0 20px;
+        text-align: center;
+    }
+}

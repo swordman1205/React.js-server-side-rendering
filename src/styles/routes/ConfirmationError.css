@@ -1,0 +1,37 @@
+.conf-err {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 200px;
+    padding-top: 80px;
+}
+
+.conf-err i{
+    color: #e42222;
+    font-size: 45px;
+    padding: 17px 30px;
+}
+
+.conf-err p {
+    width: 100%;
+    font-size: 15px;
+}
+
+@media (max-width: 1199px){
+    .conf-err {
+        padding-bottom: 35px;
+        padding-top: 25px;
+    }
+
+    .conf-err i{
+        color: #e42222;
+        font-size: 35px;
+        padding: 12px 15px 0 0;
+    }
+
+    .conf-err p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
+
+}
+

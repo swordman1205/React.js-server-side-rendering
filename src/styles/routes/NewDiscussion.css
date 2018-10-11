@@ -1,0 +1,80 @@
+.nd-sel {
+    width: 385px !important;
+    margin-bottom: 20px;
+}
+
+.nd-sel2 select{
+    background: #f7f7f7;
+}
+
+.cu-p {
+    color: #aeaeae;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+@media (max-width: 1199px){
+    .cu-p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+}
+.c-nd img{
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.nd-c-btn {
+    margin: 30px 0 70px 0;
+}
+
+@media (max-width: 1199px){
+    .nd-sel {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .c-nd img{
+        width: 100%;
+    }
+
+    .nd-c-btn {
+        text-align: center;
+    }
+
+    .nd-c-btn a {
+        padding: 10px 45px !important;
+    }
+}
+
+@media (max-width: 1199px){
+    .wysiwyg-container {
+        padding: 20px;
+        background-color: #f8efe2;
+        margin: 0 -20px;
+
+    }
+}
+
+.disabled-sel select{
+    background-color: #f7f7f7 !important;
+    cursor: default;
+}
+
+.disabled-sel:after {
+    color: #afafaf !important;
+}
+@media (max-width: 1199px){
+    .new-disscussion .p-subtext {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+@media (min-width: 1200px){
+    .new-disscussion .cu-p {
+        margin-top: 2px;
+        padding-bottom: 24px;
+    }
+}

@@ -1,0 +1,127 @@
+/* ------ news module ------ */
+.c-row-module2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: #433522 !important;
+    text-decoration: none !important;
+}
+@media (max-width: 1199px){
+    .c-row-module2 {
+        align-items: flex-start;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+.image-blog {
+    width: 250px;
+    min-width: 250px;
+    height: 147px;
+    min-height: 147px;
+    border-radius: 5px;
+    background-color: #333;
+    margin-right: 25px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    background-size: cover;
+}
+@media (max-width: 1199px){
+    .image-blog {
+        width: 110px;
+        min-width: 110px;
+        height: 75px;
+        min-height: 75px;
+        border-radius: 5px;
+        margin-right: 15px;
+    }
+}
+@media (min-width: 1200px){
+    .blog .image-blog {
+        margin-top: 3px;
+    }
+}
+.blog-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition-duration: 300ms;
+}
+.c-row-module2:hover .blog-cover {
+    background: rgba(0,0,0,0.5);
+    transition-duration: 300ms;
+}
+.c-row-module2 .p2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+@media (max-width: 1199px){
+    .c-row-module2 .p2 {
+        margin-top: -3px;
+        font-size: 14px;
+        line-height: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+    }
+}
+.c-row-module2:hover .p2 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.c-row-module2 .br-bottom2 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 10px;
+    text-decoration: none !important;
+}
+@media (max-width: 1199px){
+    .br-bottom2 {
+        display: none;
+    }
+}
+a.c-row-module2:hover .br-bottom2 {
+    text-decoration: none !important;
+}
+.br-panel {
+    font-size: 13px;
+    line-height: 17px;
+    color: #adadad;
+    font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 1199px){
+    .br-panel {
+        display: none;
+    }
+}
+.blog-date {
+    display: none;
+}
+@media (max-width: 1199px){
+    .blog-date {
+        display: block;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        font-weight: 600;
+        color: #a1a1a2;
+    }
+}
+
+.date-row {
+    display: inline-block;
+    padding-right: 10px;
+}
+.date-social {
+    display: inline-block;
+    min-width: 95px;
+}
+.date-social .slink:first-child {
+    margin-left: 0;
+}
+.gray-link {
+    color: #adadad !important;
+}

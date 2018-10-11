@@ -1,0 +1,130 @@
+.go-link {
+    color: #44c735 !important;
+    font-size: 15px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+@media (max-width: 1199px){
+    .go-link {
+        font-size: 12px;
+        line-height: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+.go-link.gl1 {
+    font-size: 18px;
+    line-height: 18px;
+}
+@media (max-width: 1199px){
+    .go-link.gl1 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+.go-link.gl2 {
+    display: none;
+}
+@media (max-width: 1199px){
+    .go-link.gl2 {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .go-link.gl2 .underline {
+        border-bottom: none;
+    }
+}
+
+
+.gl3 {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media (max-width: 1199px){
+    .gl3 {
+        display: none;
+    }
+    .gl5 {
+        display: inline-block;
+        font-size: 12px !important;
+        line-height: 20px;
+    }
+}
+.underline {
+    border-bottom: 1px solid #44c735;
+    display: inline-block;
+    margin-top: -15px;
+    line-height: 0.8;
+}
+.gl6 {
+    display: none;
+}
+
+@media (max-width: 1199px){
+
+    .underline {
+        line-height: 0.9;
+    }
+
+    .gl6 {
+        display: inline-block;
+        font-size: 12px !important;
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+    .gl6 > .underline {
+        border-bottom: 0;
+    }
+}
+
+
+.go-link .icon {
+    color: #44c735 !important;
+    margin-right: 0;
+}
+.icon {
+    font-size: 11px;
+    display: inline-block;
+    line-height: 15px;
+    margin-left: 15px;
+    font-weight: normal;
+    color: #44c735 !important;
+}
+
+.treatment-link-text{
+
+    max-width: 550px;
+    overflow-wrap: break-word;
+    text-decoration: underline;
+    line-height: 24px ;
+    color: #44c735;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+.treatment-link-text:after {
+    display: inline-block;
+    font-family: Flaticon;
+    content: "\f11b";
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1199px) {
+    .treatment-link-text{
+        max-width: 250px;
+        overflow-wrap: break-word;
+        text-decoration: underline;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+}
+
+.service-p .go-link.gl3{
+    float: right;
+}

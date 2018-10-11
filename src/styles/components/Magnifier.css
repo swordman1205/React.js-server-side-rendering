@@ -1,0 +1,127 @@
+.c-gmail {
+    position: relative;
+    width: 1200px;
+    height: 120px;
+}
+
+@media (max-width: 1199px){
+    .c-gmail {
+        margin-left: -50px;
+    }
+}
+
+.circle-zoom {
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    top: -30px;
+    left: 38px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.circle-shadow {
+    width: 200px;
+    height: 136px;
+    position: absolute;
+    top: 0;
+    left: -34px;
+    background-color: #fff;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.5);
+}
+
+.circle-zoom2 {
+    width: 136px;
+    height: 136px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 50%;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+
+.sender-name-zoom{
+    border-bottom: 2px solid #f1f1f1;
+    height: 30px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+    left: -3px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sender-name-zoom p{
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    line-height: 13px;
+    text-align: left;
+    padding: 10px 0;
+    width: 95px;
+    margin: 0;
+    color: #000;
+}
+
+.sender-name-zoom2{
+    height: 38px;
+}
+
+.blur1 {
+    filter: blur(1px);
+
+}
+
+.blur1 p {
+    color: #5f5f5f;
+}
+
+@media (max-width: 1199px){
+    .sender-name-zoom p {
+        color: transparent !important;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+    }
+
+    .sender-name-zoom2 p{
+        color: #000;
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0.9);
+    }
+
+    .mob-pad {
+        top: 170px;
+        border: 1px solid red;
+    }
+}
+
+.sender-name-zoom3{
+    border-bottom: 0;
+}
+
+
+
+.g-mail img {
+    margin-right: 10px;
+    margin-bottom: 7px
+}
+
+
+
+.color-border {
+    border-top: 2px solid #4ec840;
+    height: 1px;
+    width: 85%;
+    margin-left: 15%;
+}
+
+.marg8 {
+    margin-top: 8px;
+}
+
+.c-email-item {
+    margin: 40px 0;
+}
+

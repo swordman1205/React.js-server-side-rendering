@@ -1,0 +1,82 @@
+.contact-confirm ul {
+    padding-left: 50px;
+}
+
+.contact-confirm p {
+    font-size: 15px;
+}
+
+.contact-confirm .btn3 {
+    float: left;
+}
+
+@media (max-width: 1199px){
+    .contact-confirm p {
+        font-size: 12px;
+    }
+
+    .contact-confirm .btn3 {
+        margin: 30px auto;
+        float: none;
+    }
+}
+
+.alejandra-banner2 {
+    width: 470px !important;
+    padding: 40px 40px 0;
+    position: relative;
+    margin-top: 10px;
+}
+
+.alehandra3 {
+    width: 400px;
+    height: 490px;
+    background: url("/images/3.png");
+    background-size: contain;
+    margin-top: 0;
+}
+.ab-border {
+    border: 5px solid rgba(229,229,229,0.39);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+.ab-logo2 {
+    background: url("/images/footer-logo.png") no-repeat;
+    background-size: contain;
+    height: 85px !important;
+    width: 95px !important;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+
+@media (max-width: 1199px){
+    .alejandra-banner2 {
+        width: 100% !important;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .alehandra3 {
+        width: 160px;
+        height: 200px;
+        background: url("/images/3.png");
+        background-size: cover;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .ab-logo2 {
+        background: url("/images/footer-logo.png");
+        background-size: contain;
+        height: 62px !important;
+        width: 70px !important;
+        position: absolute;
+        top: 20%;
+        right: 15% !important;
+    }
+}

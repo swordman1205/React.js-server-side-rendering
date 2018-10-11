@@ -1,0 +1,22 @@
+.internet-address {
+    color: #a1a1a2;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    display: block;
+}
+
+.internet-address:hover {
+    color: #a1a1a2;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+@media (max-width: 1199px){
+    .internet-address {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+    }
+}

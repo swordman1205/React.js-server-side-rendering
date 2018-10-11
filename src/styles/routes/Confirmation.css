@@ -1,0 +1,295 @@
+.p3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.p3 span {
+    font-family: MontserratRegular;
+}
+
+@media (max-width: 1199px){
+    .p3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .p3 span {
+        font-size: 12px;
+    }
+}
+
+.conf ul{
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.conf ul li{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.conf h4 {
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 3px;
+}
+
+
+
+.mail-chimp img{
+    width: 100%;
+    margin-top: 0;
+}
+
+@media (max-width: 1199px){
+    .conf h4 {
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+.banner4 {
+    height: 430px;
+    width: 410px;
+    border: 5px solid rgba(229,229,229,0.39);
+    border-radius: 5px;
+    float: right;
+    background: url("/images/5.png") no-repeat center;
+    background-size: contain;
+    position: relative;
+}
+
+.conf-banner-mob {
+    display: none;
+}
+
+.ab-logo3 {
+    background: url("/images/header-logo.png");
+    height: 68px;
+    width: 77px;
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.logo-row {
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    float: right;
+}
+
+.conf-logo {
+    width: 27%;
+}
+
+.conf-logo1{
+    background: url("/images/logo-graff.png") no-repeat center;
+    background-size: cover;
+    height: 30px;
+}
+
+.conf-logo2{
+    background: url("/images/logo-melbourne.png") no-repeat center;
+    background-size: cover;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.conf-logo3{
+    background: url("/images/logo-cocina.png") no-repeat center;
+    background-size: cover;
+    height: 25px;
+    margin-top: 5px;
+}
+
+@media (max-width: 1199px){
+    .conf-banner {
+        display: none;
+    }
+
+    .conf-banner-mob {
+        display: block;
+        min-height: 230px;
+    }
+
+    .banner4 {
+        display: block;
+        height: 200px;
+        width: 200px;
+        float: none;
+        background: url("/images/5m.png") no-repeat center;
+        background-size: contain;
+        margin: 0 auto;
+    }
+
+    .ab-logo3 {
+        height: 35px;
+        width: 40px;
+        top: 15px;
+        right: 10px;
+    }
+
+    .logo-row {
+        width: 200px;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .conf-logo1{
+        height: 20px;
+    }
+
+    .conf-logo2{
+        height: 15px;
+        margin-top: 5px;
+    }
+
+    .conf-logo3{
+        height: 15px;
+        margin-top: 5px;
+    }
+}
+
+.c-row-2 {
+    max-width: 1090px;
+    margin-bottom: 50px;
+}
+
+.tagline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.tagline i {
+    font-size: 17px;
+    color: #44c735;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.tagline p {
+    font-size: 15px;
+}
+
+.title-short {
+    display: none;
+}
+
+.title-long {
+    display: block;
+}
+
+@media (max-width: 1199px){
+    .tagline i {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-top: 0;
+    }
+
+    .tagline p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .title-short {
+        display: block;
+    }
+
+    .title-long {
+        display: none;
+    }
+
+}
+
+.c-conf-prog {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.c-conf-prog ul {
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.c-conf-prog li a {
+    display: block;
+    padding: 5px 0;
+    color: #6c593d;
+    font-size: 15px;
+}
+.c-conf-prog li a:hover {
+    color: #4ac93b;
+    text-decoration: underline !important;
+}
+.c-conf-prog li a:before {
+    content: "\f11b";
+    display: inline-block;
+    font-family: Flaticon;
+    font-style: normal;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #4ac93b;
+    margin-left: -30px;
+}
+
+@media (max-width: 1199px){
+    .c-conf-prog {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .c-conf-prog li a {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .c-conf-prog li {
+        margin-top: 5px !important;
+    }
+}
+
+
+.fb-img {
+    padding-bottom: 20px;
+}
+
+.tagline2 {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.fb-block {
+    padding-left: 45px;
+}
+
+@media (max-width: 1199px){
+    .fb-img {
+        max-width: 100%;
+    }
+
+    .fb-block {
+        padding-left: 0;
+    }
+
+    .tagline2 {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}

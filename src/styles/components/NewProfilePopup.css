@@ -1,0 +1,188 @@
+.c-popup-profile {
+    background-color: #fff;
+    width: 630px;
+    min-height: 470px;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+}
+
+@media (max-width: 1199px){
+    .c-popup-profile {
+        width: 90%;
+        top: 15px;
+    }
+
+}
+
+.new-profile-popup {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 1199px){
+    .new-profile-popup {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.npp-b1 {
+    width: 240px;
+}
+
+.npp-b1 p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.npp-b1 a{
+    color: #44c735;
+}
+
+.npp-img{
+    height: 240px;
+    width: 240px;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    background: center no-repeat;
+    background-size: cover;
+}
+
+.npp-member {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #c9baa3;
+    padding: 5px 0;
+}
+
+@media (max-width: 1199px){
+    .npp-b1 {
+        width: 100%;
+        order: 2;
+    }
+
+    .npp-img{
+        height: 130px;
+        width: 130px;
+        margin: 10px auto;
+    }
+
+    .npp-b1 p{
+        font-size: 12px;
+    }
+}
+
+.orange-text {
+    color: #ff9300;
+}
+
+.npp-b2 {
+    width: 260px;
+}
+
+.npp-profile {
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.c-npp-likes{
+    display: flex;
+    flex-direction: row;
+}
+
+.npp-likes {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+.npp-likes i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.npp-likes a {
+    font-size: 14px;
+    color: #44c735;
+    text-decoration: underline;
+}
+
+.npp-info {
+    margin-top: 20px;
+}
+
+.npp-btn {
+    margin-top: 35px;
+}
+
+.nuevas-badge2 {
+    width: 160px;
+    height: 25px;
+    background: url("/images/badge.png") center no-repeat;
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.nuevas-member2 {
+    width: 160px;
+    height: 25px;
+    color: #433522;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+@media (max-width: 1199px){
+    .npp-b2 {
+        width: 160px;
+        order: 1;
+        margin: 0 auto;
+    }
+
+    .npp-profile {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .c-npp-likes{
+        width: 160px;
+        margin: 0 auto;
+    }
+
+    .npp-likes{
+        margin: 0 auto;
+    }
+
+    .c-badge {
+        margin: 0 auto;
+        width: 160px;
+    }
+
+    .npp-b2 p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .npp-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+}
+
